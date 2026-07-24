@@ -1,0 +1,73 @@
+/* ============================================================
+   Precision Electronics — Color Tokens
+   Light, industrial palette: navy ink, signal yellow, cool neutrals.
+   Base primitives first, then semantic aliases.
+   ============================================================ */
+:root {
+  /* ---- Core primitives ---- */
+  --pe-yellow: #ffc600;          /* signal / accent primary */
+  --pe-yellow-hover: #cc9e00;    /* accent primary hover */
+  --pe-navy: #1b3153;            /* primary ink */
+  --pe-navy-deep: #1f4266;       /* inverse surface / deep panels */
+  --pe-white: #ffffff;
+  --pe-neutral-100: #f2f2f2;     /* neutral primary (page bg) */
+  --pe-neutral-200: #eff5f6;     /* neutral secondary (panel bg) */
+
+  /* Navy tint ramp (over light) — from #1b3153 / #1f4266 */
+  --pe-navy-a05: rgba(31, 66, 102, 0.05);
+  --pe-navy-a10: rgba(31, 66, 102, 0.10);
+  --pe-navy-a20: rgba(31, 66, 102, 0.20);
+  --pe-navy-a40: rgba(31, 66, 102, 0.40);
+  --pe-navy-a60: rgba(31, 66, 102, 0.60);
+  --pe-navy-a80: rgba(31, 66, 102, 0.80);
+
+  /* Light tint ramp (over dark) */
+  --pe-light-a10: rgba(242, 242, 242, 0.10);
+  --pe-light-a20: rgba(242, 242, 242, 0.20);
+  --pe-light-a50: rgba(242, 242, 242, 0.50);
+  --pe-light-a60: rgba(242, 242, 242, 0.60);
+
+  /* Yellow tint ramp */
+  --pe-yellow-a10: hsla(46.6, 100%, 50%, 0.10);
+  --pe-yellow-a20: hsla(46.6, 100%, 50%, 0.20);
+  --pe-yellow-a40: hsla(46.6, 100%, 50%, 0.40);
+
+  /* Semantic status (added — industrial signalling; see readme "Intentional additions") */
+  --pe-success: #1f8a54;
+  --pe-warning: #d98a00;
+  --pe-danger: #c0392b;
+
+  /* ---- Semantic: surfaces ---- */
+  --surface-page: var(--pe-neutral-100);
+  --surface-panel: var(--pe-neutral-200);
+  --surface-card: var(--pe-white);
+  --surface-inverse: var(--pe-navy-deep);
+  --surface-accent: var(--pe-yellow);
+  --surface-overlay: rgba(27, 49, 83, 0.72);
+
+  /* ---- Semantic: text ---- */
+  --text-primary: var(--pe-navy);
+  --text-secondary: var(--pe-navy-a60);
+  --text-inverse: var(--pe-neutral-100);
+  --text-inverse-secondary: var(--pe-light-a60);
+  --text-on-accent: var(--pe-navy);   /* navy ink on yellow — brand-legible */
+  --text-link: var(--pe-navy);
+  --text-link-hover: var(--pe-navy-a60);
+
+  /* ---- Semantic: borders ---- */
+  --border-primary: var(--pe-navy-a10);
+  --border-secondary: var(--pe-navy-a20);
+  --border-strong: var(--pe-navy);
+  --border-accent: var(--pe-yellow);
+  --border-inverse: var(--pe-light-a20);
+
+  /* ---- Component roles ---- */
+  --btn-primary-bg: var(--pe-yellow);
+  --btn-primary-bg-hover: var(--pe-yellow-hover);
+  --btn-primary-text: var(--pe-navy);
+  --btn-secondary-bg: var(--pe-navy-a10);
+  --btn-secondary-bg-hover: var(--pe-navy-a20);
+  --btn-secondary-text: var(--pe-navy);
+
+  --focus-ring: var(--pe-yellow);
+}
