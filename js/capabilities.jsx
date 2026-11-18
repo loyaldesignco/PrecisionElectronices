@@ -7,7 +7,7 @@ function CapabilitiesPage() {
       <Hero
         eyebrow="Construction Types"
         title="Styles & Capabilities"
-        lead="Precision Electronics builds custom magnetics in every construction — matched to the electrical, mechanical and environmental demands of your application."
+        lead="Precision Electronics, Inc. builds custom magnetics in every construction — matched to the electrical, mechanical and environmental demands of your application."
       />
       <ConstructionGrid
         heading="Eight constructions, one supplier"

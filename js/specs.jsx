@@ -40,7 +40,8 @@ const SPEC_GROUPS = [
     icon: 'file-check-2',
     title: 'Testing & Compliance',
     rows: [
-      ['Quality system', 'ISO 9001:2008 — QAS registered'],
+      ['Quality system', 'ISO 9001:2015 — QAS registered (Cert. US3620)'],
+      ['Registrations', 'ITAR (M23380) · JCP (DD Form 2345)'],
       ['Electrical test', '100% coverage before shipment'],
       ['First-article', 'Inspection with full lot traceability'],
       ['Standards', 'MIL-STD environmental & electrical testing'],
@@ -88,7 +89,7 @@ function SpecsPage() {
           <SectionHead
             eyebrow="Parameters"
             title="Engineered to your requirement"
-            lead="Precision Electronics does not sell a catalog of fixed part numbers — we design each unit to the electrical, mechanical and environmental spec you provide."
+            lead="Precision Electronics, Inc. does not sell a catalog of fixed part numbers — we design each unit to the electrical, mechanical and environmental spec you provide."
             maxWidth={640}
             style={{ marginBottom: '3rem' }}
           />

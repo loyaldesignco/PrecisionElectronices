@@ -14,7 +14,7 @@ function ContactDetails() {
       <p className="pe-eyebrow ink">Get in touch</p>
       <h2 style={{ margin: '0.9rem 0 0', fontSize: 'clamp(1.9rem, 3.4vw, 2.6rem)', lineHeight: 1.05, letterSpacing: '-0.01em' }}>Send us your drawing</h2>
       <p style={{ color: 'var(--text-secondary)', fontSize: 'var(--text-lg)', margin: '1.1rem 0 0', lineHeight: 1.55, maxWidth: 460 }}>
-        Call or email the engineers at Precision Electronics with your application details. We&rsquo;ll come back with a quote — usually within one business day.
+        Call or email the engineers at Precision Electronics, Inc. with your application details. We&rsquo;ll come back with a quote — usually within one business day.
       </p>
       <div style={{ marginTop: '2.25rem', display: 'grid', gap: 'var(--space-5)' }}>
         {rows.map(r => (
@@ -50,7 +50,7 @@ function DirectContactCard() {
       </div>
 
       <div style={{ borderTop: '1px solid var(--border-inverse)', paddingTop: 'var(--space-5)', display: 'grid', gap: 'var(--space-3)' }}>
-        {[['clock', 'Mon–Fri, 8:00am–5:00pm ET'], ['file-text', 'Send drawings & specs to info@precisionelect.com'], ['shield-check', 'ISO 9001:2008 — QAS registered']].map(([i, t]) => (
+        {[['clock', 'Mon–Fri, 8:00am–5:00pm ET'], ['file-text', 'Send drawings & specs to info@precisionelect.com'], ['shield-check', 'ISO 9001:2015 — QAS registered']].map(([i, t]) => (
           <div key={t} style={{ display: 'flex', gap: '0.75rem', alignItems: 'center', color: 'var(--text-inverse-secondary)' }}>
             <Icon name={i} size={18} color="#ffc600" style={{ flex: 'none' }} />
             <span style={{ lineHeight: 1.4 }}>{t}</span>

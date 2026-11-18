@@ -1,11 +1,13 @@
 /* Precision Electronics — shared content data */
 const CONSTRUCTIONS = [
+  { icon: 'shield-check', name: 'Hermetically Sealed', desc: 'Fully sealed in welded metal cases — often under vacuum — to prevent any ingress of moisture or contaminants. Ideal for aerospace, defense, or harsh environmental use.' },
+  { icon: 'zap', name: 'High Voltage', desc: 'Engineered for elevated operating voltages, with insulation systems and creepage/clearance designed to prevent breakdown. Built for power conversion, test, and aerospace or defense applications.' },
+  { icon: 'shield', name: 'Corona Free', desc: 'Designed and tested to eliminate corona (partial discharge) under high voltage, extending insulation life and reliability. Critical for aerospace, high-altitude, and high-voltage power systems.' },
   { icon: 'wind', name: 'Dry', desc: 'Open-air construction with no oil or encapsulant. Simple, cost-effective, and easy to inspect — ideal for clean, controlled environments.' },
   { icon: 'square-dashed', name: 'Open', desc: 'Basic frame design with exposed windings and components. Common for prototypes, lab use, or when space and accessibility are a priority.' },
   { icon: 'droplets', name: 'Varnished', desc: 'Windings are coated with insulating varnish to reduce vibration, moisture ingress, and noise. A step up in durability from open builds.' },
   { icon: 'box', name: 'Epoxy / RTV Filled Molded', desc: 'Encapsulated in rigid (epoxy) or flexible (RTV) compounds for mechanical stability, moisture resistance, and electrical insulation. Great for rugged or high-vibration environments.' },
   { icon: 'droplet', name: 'Oil / Silicone Filled', desc: 'Immersed in dielectric oil or silicone to enhance thermal dissipation and insulation. Often used in high-voltage or high-power applications.' },
-  { icon: 'shield-check', name: 'Hermetically Sealed', desc: 'Fully sealed in welded metal cases — often under vacuum — to prevent any ingress of moisture or contaminants. Ideal for aerospace, defense, or harsh environmental use.' },
   { icon: 'layers', name: 'Low Profile', desc: 'Designed with a flat form factor for tight enclosures or height-constrained designs. Often used in compact instrumentation or embedded systems.' },
   { icon: 'circle-dot', name: 'Toroidal', desc: 'Donut-shaped core with excellent efficiency and low electromagnetic interference. Lightweight and compact — commonly used in medical, audio, and precision power applications.' },
 ];
@@ -25,7 +27,8 @@ const PROCESS = [
 ];
 
 const QUALITY_POINTS = [
-  'ISO 9001:2008 — QAS International registered firm',
+  'ISO 9001:2015 — QAS International registered firm (Cert. US3620)',
+  'ITAR registered (M23380) and JCP registered (DD Form 2345)',
   'First-article inspection and full lot traceability',
   '100% electrical test coverage before shipment',
   'MIL-STD environmental and electrical testing',

@@ -122,7 +122,7 @@ function CtaBanner() {
         <div className="reveal" style={{ maxWidth: 720, margin: '0 auto', textAlign: 'center' }}>
           <h2 style={{ color: 'var(--pe-navy)', margin: 0, fontSize: 'clamp(2rem, 4vw, 3rem)', lineHeight: 1.06, letterSpacing: '-0.01em' }}>Contact us today<br />with your application details</h2>
           <p style={{ color: 'rgba(27,49,83,0.78)', margin: '1.25rem auto 0', fontSize: 'var(--text-lg)', maxWidth: 560, lineHeight: 1.55 }}>
-            Contact the experts at Precision Electronics today to discuss your project. Our team is ready to provide the support and guidance you need to bring your vision to life.
+            Contact the experts at Precision Electronics, Inc. today to discuss your project. Our team is ready to provide the support and guidance you need to bring your vision to life.
           </p>
           <div style={{ display: 'flex', gap: 'var(--space-3)', justifyContent: 'center', flexWrap: 'wrap', marginTop: '2.25rem' }}>
             <Button as="a" href="tel:+16318424900" variant="secondary" size="lg" iconLeft={<Icon name="phone" size={18} />}>Call</Button>
@@ -162,7 +162,10 @@ function Footer() {
         </div>
 
         <div style={{ borderTop: '1px solid var(--border-inverse)' }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem 2rem', flexWrap: 'wrap', padding: '1.75rem 0 2rem' }}>
+          <p style={{ color: 'var(--text-inverse-secondary)', fontSize: '0.85rem', margin: 0, padding: '1.5rem 0 0' }}>
+            JCP Registered (DD Form 2345) &middot; ITAR Registered (M23380) &middot; <a href="assets/iso-9001-certificate.pdf" target="_blank" rel="noopener" style={{ color: 'inherit', textDecoration: 'underline' }}>ISO 9001:2015 Certified (Cert. US3620)</a>
+          </p>
+          <div style={{ display: 'flex', justifyContent: 'space-between', gap: '1rem 2rem', flexWrap: 'wrap', padding: '1.25rem 0 2rem' }}>
             <span style={{ color: 'var(--text-inverse-secondary)', fontSize: '0.85rem' }}>&copy; 2025 Precision Electronics, Inc. All rights reserved globally.</span>
             <div style={{ display: 'flex', gap: '1.75rem', flexWrap: 'wrap' }}>
               <a href="#" style={{ color: 'var(--text-inverse-secondary)', fontSize: '0.85rem', textDecoration: 'underline' }}>Privacy policy</a>

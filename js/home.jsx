@@ -13,10 +13,10 @@ function HomeHero() {
 
         <div className="pe-hero-cluster reveal d2">
           <p className="pe-hero-text" style={{ color: '#fff', fontSize: 'var(--text-lg)', lineHeight: 1.5, margin: 0, maxWidth: 320 }}>
-            Precision Electronics, since 1959, has been a source for a wide variety of custom magnetics.
+            Precision Electronics, Inc. has been a source for a wide variety of custom magnetics since 1959.
           </p>
           <div className="pe-cert-strip">
-            <span className="pe-cert-chip"><img src="assets/iso-9001-qas.jpg" alt="ISO 9001:2008 QAS International Registered Firm — Certificate No. US3620" /></span>
+            <a className="pe-cert-chip" href="assets/iso-9001-certificate.pdf" target="_blank" rel="noopener"><img src="assets/iso-9001-qas.jpg" alt="ISO 9001:2015 QAS International Registered Firm — Certificate No. US3620" /></a>
             <span className="pe-cert-chip"><img src="assets/cert-itar.png" alt="ITAR Registered — International Traffic in Arms Regulations" /></span>
             <span className="pe-cert-chip"><img src="assets/cert-cmmc.png" alt="CMMC — Cybersecurity Maturity Model Certification Compliance" /></span>
           </div>
@@ -35,7 +35,7 @@ function HomePage() {
       <ConstructionGrid
         headerMode="split"
         heading="The leading source for prototypes thru production"
-        lead="Precision Electronics specializes in custom magnetics to meet your project-specific electrical, mechanical and environmental requirements."
+        lead="Precision Electronics, Inc. specializes in custom magnetics to meet your project-specific electrical, mechanical and environmental requirements."
       />
       <CtaBanner />
       <Footer />
